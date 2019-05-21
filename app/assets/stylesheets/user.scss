@@ -149,7 +149,28 @@ div.container.post {
 .header-dark{
   background-color: grey;
   background-image: url(asset_path("President.jpg"));
-  height: 70vh;
+  min-height: 70vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover ;
+  
+  
+}
+.hero-text{
+  margin-top: 40vh;
+  background-color: rgba(255, 255, 255, 0.247);
+  
+}
+
+@media only screen and (min-width: 768px) {
+    .header-dark{
+    background-color: grey;
+    background-image: url(asset_path("President-600.jpg"));
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    }
+}
+
+.img-art{
+  min-height: 35vh;
 }
