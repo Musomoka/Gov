@@ -25,8 +25,9 @@ style="padding:-53px;margin:0px 20px 0px  20px;">
                     <li role="presentation" class="nav-item"><a href="#" class="nav-link">MANIFESTO </a>
                     </li>
                 </ul>
-                <p class="navbar-text ml-auto actions"><a class="navbar-link login" href="#">Log In</a>  <a class="btn btn-secondary action-button"
-                    role="button" href="#">Sign Up</a>
+                <p class="navbar-text ml-auto actions">
+                    <%= link_to 'Sign In', member_session_path, class: "navbar-link login" %>  
+                    <%= link_to 'Sign Up', new_member_registration_path,class:  "btn btn-secondary action-button" %>
                 </p>
             </div>
     </div>
